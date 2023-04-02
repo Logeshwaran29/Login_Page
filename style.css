@@ -1,0 +1,28 @@
+@import url(index.css);
+body {
+    background: linear-gradient(to left top, rgb(85, 85, 85), rgb(183, 177, 177));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+div {
+    background: linear-gradient(to right bottom, rgb(94, 93, 93), rgb(184, 174, 174));
+    height: 360px;
+    box-shadow: 0 5px 10px 0 rgb(73, 72, 72), 0 10px 15px 0 rgb(17, 17, 17);
+}
+button {
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+button:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+label {
+    color: black;
+}
